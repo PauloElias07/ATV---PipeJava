@@ -1,0 +1,11 @@
+Name: pipeJava
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  teste_soma:
+    runs-on: ubuntu-latest
+    
+
