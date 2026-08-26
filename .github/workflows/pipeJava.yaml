@@ -6,6 +6,19 @@ on:
 
 jobs:
   teste_soma:
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-latest'
+    steps:
+    - name: Download Ambiente
+      uses: actions/checkout@v3
+
+    - name: Configurar Java
+    - uses: actions/setup-java@v4
+      with:
+        distribution: "temurin"
+        java-version: "17"
+        
+    - name: testar calculadora
+    - run: |
+        Java Main 
+
 
