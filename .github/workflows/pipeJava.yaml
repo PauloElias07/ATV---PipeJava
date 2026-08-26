@@ -1,4 +1,4 @@
-Name: pipeJava
+name: pipeJava
 
 on:
   push:
