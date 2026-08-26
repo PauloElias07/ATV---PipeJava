@@ -19,6 +19,7 @@ jobs:
         
     - name: testar calculadora
       run: |
+        javac *.java
         Java Main 
 
 
